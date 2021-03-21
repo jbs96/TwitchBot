@@ -10,8 +10,8 @@ class TwitchBot(commands.Bot):
         self._cogs = [p.stem for p in Path(".").glob("./bot/cogs/*.py")]
         super().__init__(
             irc_token=IRC_TOKEN,
-            api_token='23nbr1nu2dojmwzwd5sef2kaufpzjn',
-            client_id="gp762nuuoqcoxypju8c569th9wz7q5",
+            api_token=API_TOKEN,
+            client_id=CLIENT_ID,
             nick=NICK,
             prefix='!',
             initial_channels=(CHANNEL,),
