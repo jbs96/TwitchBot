@@ -1,2 +1,4 @@
 bot/tokens.py
+bot/cogs/__pycache__/
+
 __pycache__/
